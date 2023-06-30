@@ -5,6 +5,7 @@
 
 
 ![emreyunusbas's github streak](https://github-readme-streak-stats.herokuapp.com/?user=emreyunusbas&theme=blue-green)
+![Github stats 2](https://github-readme-stats.vercel.app/api?username=emreyunusbas&show_icons=true&theme=radical)
 
 Here are some ideas to get you started:
 
