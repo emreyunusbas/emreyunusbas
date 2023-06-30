@@ -4,7 +4,7 @@
 **emreyunusbas/emreyunusbas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 
-[![DenverCoder1's github streak](https://github-readme-streak-stats.herokuapp.com/?user=emreyunusbas&theme=blue-green)](https://github.com/emreyunusbas/github-readme-streak-stats)
+[![emreyunusbas's github streak](https://github-readme-streak-stats.herokuapp.com/?user=emreyunusbas&theme=blue-green)](https://github.com/emreyunusbas/github-readme-streak-stats)
 
 Here are some ideas to get you started:
 
