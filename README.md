@@ -13,7 +13,8 @@ Here are some ideas to get you started:
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about anything
 - 📫 How to reach me: On Social
-- [![Linkedin Logo](https://github.com/emreyunusbas/emreyunusbas/assets/116023532/2d00ecc4-4a99-4469-ba59-1240afbbe692)](https://www.linkedin.com/in/yunus-emre-ba%C5%9F/)
+-[![LinkedIn Logo](https://github.com/emreyunusbas/emreyunusbas/blob/assets/116023532/2d00ecc4-4a99-4469-ba59-1240afbbe692.png?raw=true)](https://www.linkedin.com/in/yunus-emre-ba%C5%9F/)
+
 - [![İnstagram Logo](https://github.com/emreyunusbas/emreyunusbas/assets/116023532/c8983338-bf82-4b54-b933-3055f82fb22b)](https://instagram.com/shqiptaryeb)
 
 - 😄 Pronouns: ...
