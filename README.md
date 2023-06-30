@@ -13,9 +13,10 @@ Here are some ideas to get you started:
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about anything
 - 📫 How to reach me: On Social
--[![LinkedIn Logo](https://github.com/emreyunusbas/emreyunusbas/blob/assets/116023532/2a1c4c3b-9047-43e3-bd38-0ff56138619d.png?raw=true)](https://www.linkedin.com/in/yunus-emre-ba%C5%9F/)
 
+  
+   [![LinkedIn Logo](https://i.hizliresim.com/rakhfbm.png)](https://www.linkedin.com/in/yunus-emre-ba%C5%9F/)
+  [![Instagram Logo](https://i.hizliresim.com/ibl4yn2.png)](https://instagram.com/shqiptaryeb)
 
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
-
