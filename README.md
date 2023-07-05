@@ -1,6 +1,13 @@
 <h1 align="center">Hi everyone👋, I am Yunus Emre Baş</h1>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Tourney&weight=900&size=31&pause=1500&color=29F2F7&center=true&vCenter=true&width=504&lines=Welcome+to+my+Github+profile)](https://git.io/typing-svg)<!--,-->[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Gluten&weight=900&size=31&pause=1500&color=F70E0E&center=true&vCenter=true&width=504&lines=Everything+About+Me.)](https://git.io/typing-svg)
+<p align="center">
+<a href="https://git.io/typing-svg" target="blank"><img align="center" src="https://readme-typing-svg.herokuapp.com?font=Tourney&weight=900&size=31&pause=1500&color=29F2F7&center=true&vCenter=true&width=504&lines=Welcome+to+my+Github+profile">
+
+<p align="center">
+<a href="https://git.io/typing-svg" target="blank"><img align="center" src="https://readme-typing-svg.herokuapp.com?font=Gluten&weight=900&size=31&pause=1500&color=F70E0E&center=true&vCenter=true&width=504&lines=Everything+About+Me">
+
+
+
 
 <img align="right" alt="Gamer Room: Hacker" width="500" src="https://github.com/emreyunusbas/emreyunusbas/assets/116023532/67dd657c-346f-436f-8ad9-23e6ac4dfc3b">
 
