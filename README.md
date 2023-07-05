@@ -39,7 +39,11 @@
 
 <img align="left" width="500" src="https://github-readme-streak-stats.herokuapp.com/?user=emreyunusbas&theme=blue-green">
 
-![emreyunusbas's GitHub stats](https://github-readme-stats.vercel.app/api?username=emreyunusbas&show_icons=true&theme=radical)
-![emreyunusbas's github streak](https://github-readme-streak-stats.herokuapp.com/?user=emreyunusbas&theme=blue-green)
+
+[![Yunus Emre Bas's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=emreyunusbas&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/emreyunusbas/github-readme-stats#gh-dark-mode-only)
+
+[![Yunus Emre Bas's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=emreyunusbas&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/emreyunusbas/github-readme-stats#gh-light-mode-only)
+
+![Yunus Emre Bas's github streak](https://github-readme-streak-stats.herokuapp.com/?user=emreyunusbas&theme=blue-green)
 
 
