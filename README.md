@@ -13,7 +13,7 @@
 
 <p align="left">
 
-- 🌱 I’m currently learning **Java** <br>
+- 🌱 I’m currently learning ***Java*** <br>
 - 👯 I’m looking to collaborate on .. <br>
 - 🔭 I’m interested in learning languages <br>
 - ⚡ Fun fact: "Kod yazmayı sevdiğim kadar kahve içmeyi de severim. Kodlarımın arkasında her zaman bir fincan kahve bulunur!" <br>
