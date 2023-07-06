@@ -6,10 +6,15 @@
 <p align="center">
 <a href="https://git.io/typing-svg" target="blank"><img align="center" src="https://readme-typing-svg.herokuapp.com?font=Gluten&weight=900&size=31&pause=1500&color=F70E0E&center=true&vCenter=true&width=504&lines=Everything+About+Me">
 
+<div align="center"><img src="https://github.com/emreyunusbas/emreyunusbas/assets/116023532/52041541-c837-460a-acdc-b545c170f9d7"></div>
+
 
 
 
 <img align="right" alt="Gamer Room: Hacker" width="500" src="https://github.com/emreyunusbas/emreyunusbas/assets/116023532/67dd657c-346f-436f-8ad9-23e6ac4dfc3b">
+
+
+
 
 <p align="left">
 
