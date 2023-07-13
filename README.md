@@ -6,7 +6,8 @@
 <p align="center">
 <a href="https://git.io/typing-svg" target="blank"><img align="center" src="https://readme-typing-svg.herokuapp.com?font=Gluten&weight=900&size=31&pause=1500&color=F70E0E&center=true&vCenter=true&width=504&lines=Everything+About+Me">
 
-<div align="center"><img src="https://github.com/emreyunusbas/emreyunusbas/assets/116023532/669f6972-9693-4a47-9c22-e96f362a64f7"></div>
+<div align="center"><img src="https://github.com/emreyunusbas/emreyunusbas/assets/116023532/3de74f8d-fcba-4e1c-ad4f-dee9576b4b89"></div>
+
 
 
 
