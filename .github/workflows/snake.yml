@@ -2,7 +2,7 @@ name: Generate Snake
 
 on:
   schedule:
-    # Runs every 6 hours
+    # Her 6 saatte bir çalışır
     - cron: "0 */8 * * *"
   workflow_dispatch:
   push:
@@ -14,26 +14,17 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Check if Profile-3D-Contrib folder exists
-        run: |
-          if [ -d "emreyunubas/profile-3d-contrib" ]; then
-            echo "Profile-3D-Contrib folder already exists."
-          else
-            mkdir -p emreyunubas/profile-3d-contrib
-          fi
-
       - name: Generate Snake Game Contributions
         uses: aelassas/snk/svg-only@main
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            emreyunubas/profile-3d-contrib/github-contribution-grid-snake.svg
-            emreyunubas/profile-3d-contrib/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Push SVG files to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - name: Push github-contribution-grid-snake.svg to the desired folder
+        uses: ad-m/github-push-action@master
         with:
-          target_branch: output
-          build_dir: emreyunubas/profile-3d-contrib
+          branch: main
+          directory: 'profile-3d-contrib'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
