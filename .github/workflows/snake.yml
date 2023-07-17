@@ -17,14 +17,14 @@ jobs:
       - name: Generate Snake Game Contributions
         uses: aelassas/snk/svg-only@main
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: emreyunusbas
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            Recursive-Power/eco/github-contribution-grid-snake.svg
+            Recursive-Power/eco/github-contribution-grid-snake-dark.svg?palette=github-dark
       - name: Push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
-          build_dir: emreyunusbas/profile-3d-contrib
+          build_dir: Recursive-Power/eco
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
