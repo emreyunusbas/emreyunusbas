@@ -18,11 +18,10 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Generate Snake Game Contributions
-        uses: aelassas/snk@v1.2.0
+        uses: aelassas/snk@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          username: ${{ github.repository_owner }}
-          output_dir: profile-3d-contrib/snake-game
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OUTPUT_DIR: profile-3d-contrib/snake-game
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
