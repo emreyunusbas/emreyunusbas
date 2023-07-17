@@ -23,8 +23,12 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
+        - name: Commit & Push
+        run: |
+          git config user.name emreyunusbas
+          git config user.email emrebasyunus1@gmail.com
+          git add -A .
+          git commit -m "Generate & Update 3D Profile"
+          git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
