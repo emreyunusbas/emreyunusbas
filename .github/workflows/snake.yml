@@ -25,6 +25,6 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
-          build_dir: emreyunusbas/tree/main/profile-3d-contrib
+          build_dir: emreyunusbas/profile-3d-contrib
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
