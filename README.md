@@ -17,6 +17,10 @@
 
 
 
+
+
+
+
 <img align="right" alt="Gamer Room: Hacker" width="500" src="https://github.com/emreyunusbas/emreyunusbas/assets/116023532/67dd657c-346f-436f-8ad9-23e6ac4dfc3b">
 
 
@@ -56,5 +60,7 @@
 [![Yunus Emre Bas's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=emreyunusbas&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/emreyunusbas/github-readme-stats#gh-light-mode-only)
 
 ![Yunus Emre Bas's github streak](https://github-readme-streak-stats.herokuapp.com/?user=emreyunusbas&theme=blue-green)
+
+![Yunus Emre Bas's github Thropies](https://github-profile-trophy.vercel.app/?username=emreyunusbas&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
 
