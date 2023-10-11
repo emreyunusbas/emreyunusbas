@@ -1,4 +1,4 @@
-<img align="right" src="https://komarev.com/ghpvc/?username=emreyunusbas&label=Profile%20views&color=0e75b6&style=flat" alt="feyzabakir" /> </p>
+
 
 <h1 align="center">Hi everyone👋, I am Yunus Emre Baş</h1>
 
