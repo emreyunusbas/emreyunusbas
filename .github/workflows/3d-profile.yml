@@ -22,4 +22,4 @@ jobs:
           git config user.email emrebasyunus1@gmail.com
           git add -A .
           git commit -m "Generate & Update 3D Profile"
-          git push.//nokta koydum çalışması için silmek gerek.
+          git push
