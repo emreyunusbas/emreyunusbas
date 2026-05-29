@@ -3,6 +3,7 @@ import { AnimatePresence } from "framer-motion";
 import LoadingScreen from "@/components/LoadingScreen";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import Skills from "@/components/Skills";
 import SelectedWorks from "@/components/SelectedWorks";
 import Journal from "@/components/Journal";
 import Explorations from "@/components/Explorations";
@@ -21,6 +22,7 @@ export default function Index() {
       <Navbar />
       <main>
         <Hero />
+        <Skills />
         <SelectedWorks />
         <Journal />
         <Explorations />

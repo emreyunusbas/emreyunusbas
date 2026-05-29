@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { LOADING_WORDS } from "@/data/content";
+import { useLang } from "@/i18n/LangContext";
 
 const DURATION = 2700; // ms for the 000 -> 100 count
 const WORD_INTERVAL = 900; // ms per rotating word
@@ -10,6 +10,8 @@ interface LoadingScreenProps {
 }
 
 export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
+  const { t } = useLang();
+  const words = t.loading.words;
   const [count, setCount] = useState(0);
   const [wordIndex, setWordIndex] = useState(0);
   const completedRef = useRef(false);
@@ -37,7 +39,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
   // Rotating words
   useEffect(() => {
     const id = window.setInterval(() => {
-      setWordIndex((i) => (i + 1) % LOADING_WORDS.length);
+      setWordIndex((i) => (i + 1) % words.length);
     }, WORD_INTERVAL);
     return () => window.clearInterval(id);
   }, []);
@@ -55,7 +57,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="text-xs uppercase tracking-[0.3em] text-muted"
       >
-        Portfolio
+        {t.loading.label}
       </motion.div>
 
       {/* Center rotating words */}
@@ -69,7 +71,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
             transition={{ duration: 0.4, ease: "easeInOut" }}
             className="font-display text-4xl italic text-text-primary/80 md:text-6xl lg:text-7xl"
           >
-            {LOADING_WORDS[wordIndex]}
+            {words[wordIndex]}
           </motion.h1>
         </AnimatePresence>
       </div>

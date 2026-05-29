@@ -1,11 +1,11 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { useHls } from "@/hooks/useHls";
+import { useLang } from "@/i18n/LangContext";
 import { HLS_SRC, SOCIAL_LINKS, CONTACT_EMAIL } from "@/data/content";
 
-const MARQUEE_TEXT = "BUILDING THE FUTURE • ";
-
 export default function Contact() {
+  const { t } = useLang();
   const videoRef = useRef<HTMLVideoElement>(null);
   const marqueeRef = useRef<HTMLDivElement>(null);
 
@@ -49,7 +49,7 @@ export default function Contact() {
                 key={i}
                 className="font-display text-5xl italic text-text-primary/80 md:text-7xl lg:text-8xl"
               >
-                {MARQUEE_TEXT}
+                {t.contact.marquee}
               </span>
             ))}
           </div>
@@ -57,7 +57,7 @@ export default function Contact() {
 
         {/* CTA */}
         <p className="mb-6 mt-8 text-center text-sm uppercase tracking-[0.3em] text-muted">
-          Let's work together
+          {t.contact.lets}
         </p>
         <a href={`mailto:${CONTACT_EMAIL}`} className="group/gb relative inline-flex">
           <span className="accent-gradient-animated animate-gradient-shift pointer-events-none absolute -inset-[2px] rounded-full opacity-0 transition-opacity duration-300 group-hover/gb:opacity-100" />
@@ -88,12 +88,12 @@ export default function Contact() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-green-400" />
             </span>
-            <span className="text-xs text-muted">Available for projects</span>
+            <span className="text-xs text-muted">{t.contact.available}</span>
           </div>
         </footer>
 
         <p className="mt-8 text-center text-xs text-muted/60">
-          © {new Date().getFullYear()} Michael Smith. All rights reserved.
+          © {new Date().getFullYear()} Yunus Emre Baş. {t.contact.rights}
         </p>
       </div>
     </section>

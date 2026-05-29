@@ -1,7 +1,13 @@
-# Dark Portfolio Landing Page
+# Yunus Emre Baş — Portfolio
 
-A single-page dark portfolio landing page built with **React + Vite + Tailwind CSS +
-TypeScript + GSAP + Framer Motion + hls.js**.
+A single-page **bilingual (TR/EN)** dark portfolio landing page built with **React +
+Vite + Tailwind CSS + TypeScript + GSAP + Framer Motion + hls.js**. Content is sourced
+from Yunus Emre Baş's CV (Digital Marketing & AI Video Production).
+
+The language switch lives in the navbar (TR / EN); the preference is saved in
+`localStorage` and falls back to the browser language. All copy lives in
+`src/data/content.ts` under `CONTENT.tr` / `CONTENT.en`, consumed via the `useLang()`
+hook in `src/i18n/LangContext.tsx`.
 
 ## Getting started
 
@@ -24,10 +30,12 @@ portfolio/
 │  ├─ main.tsx             # React + Router entry
 │  ├─ App.tsx              # routes + page transitions
 │  ├─ pages/Index.tsx      # loading screen + all sections
-│  ├─ components/          # LoadingScreen, Navbar, Hero, SelectedWorks,
-│  │                       #   Journal, Explorations, Stats, Contact, …
+│  ├─ components/          # LoadingScreen, Navbar, LangToggle, Hero, Skills,
+│  │                       #   SelectedWorks(Projects), Journal(Experience),
+│  │                       #   Explorations, Stats, Contact, …
+│  ├─ i18n/LangContext.tsx # TR/EN provider + useLang() hook
 │  ├─ hooks/useHls.ts      # shared HLS video loader
-│  └─ data/content.ts      # all content + image paths + contact links
+│  └─ data/content.ts      # bilingual content + image paths + contact links
 ├─ public/images/          # generated images go here (see below)
 └─ image-prompts/          # generation prompts + image-map.md schema
 ```
