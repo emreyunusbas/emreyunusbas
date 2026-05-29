@@ -31,20 +31,20 @@ export const HLS_SRC =
 
 /** Language-independent layout data for the Projects bento grid */
 export const PROJECT_ITEMS = [
-  { id: "fidovita", image: "/images/projects/fidovita.jpg", span: "md:col-span-7", aspect: "aspect-[16/10]" },
-  { id: "youtube-shorts", image: "/images/projects/youtube-shorts.jpg", span: "md:col-span-5", aspect: "aspect-[16/10]" },
-  { id: "premiere-plugin", image: "/images/projects/premiere-plugin.jpg", span: "md:col-span-5", aspect: "aspect-[16/10]" },
-  { id: "vextoris", image: "/images/projects/vextoris.jpg", span: "md:col-span-7", aspect: "aspect-[16/10]" },
+  { id: "fidovita", image: "/images/projects/project-fidovita.png", span: "md:col-span-7", aspect: "aspect-[16/10]" },
+  { id: "youtube-shorts", image: "/images/projects/project-youtube-shorts.png", span: "md:col-span-5", aspect: "aspect-[16/10]" },
+  { id: "premiere-plugin", image: "/images/projects/project-premiere-plugin.png", span: "md:col-span-5", aspect: "aspect-[16/10]" },
+  { id: "vextoris", image: "/images/projects/project-vextoris.png", span: "md:col-span-7", aspect: "aspect-[16/10]" },
 ] as const;
 
 /** Language-independent layout data for the Explorations parallax gallery */
 export const EXPLORATION_ITEMS = [
-  { id: "exploration-1", image: "/images/explorations/exploration-1.jpg", rotate: -4 },
-  { id: "exploration-2", image: "/images/explorations/exploration-2.jpg", rotate: 3 },
-  { id: "exploration-3", image: "/images/explorations/exploration-3.jpg", rotate: -2 },
-  { id: "exploration-4", image: "/images/explorations/exploration-4.jpg", rotate: 5 },
-  { id: "exploration-5", image: "/images/explorations/exploration-5.jpg", rotate: -3 },
-  { id: "exploration-6", image: "/images/explorations/exploration-6.jpg", rotate: 2 },
+  { id: "exploration-1", image: "/images/explorations/exploration-1.jpeg", rotate: -4 },
+  { id: "exploration-2", image: "/images/explorations/exploration-2.jpeg", rotate: 3 },
+  { id: "exploration-3", image: "/images/explorations/exploration-3.jpeg", rotate: -2 },
+  { id: "exploration-4", image: "/images/explorations/exploration-4.png", rotate: 5 },
+  { id: "exploration-5", image: "/images/explorations/exploration-5.jpeg", rotate: -3 },
+  { id: "exploration-6", image: "/images/explorations/exploration-6.jpeg", rotate: 2 },
 ] as const;
 
 /** Tool names are brand names — shared across languages */
