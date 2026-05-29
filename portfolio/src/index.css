@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* HSL triplets — Tailwind wraps them in hsl() via the color tokens */
+    --bg: 0 0% 4%;
+    --surface: 0 0% 8%;
+    --text: 0 0% 96%;
+    --muted: 0 0% 53%;
+    --stroke: 0 0% 12%;
+    --accent: 0 0% 96%;
+  }
+
+  * {
+    @apply border-stroke;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-bg text-text-primary font-body antialiased;
+    /* Forced dark theme — no light mode */
+  }
+
+  ::selection {
+    background: rgba(137, 170, 204, 0.3);
+    color: hsl(var(--text));
+  }
+
+  /* Custom scrollbar to match the dark aesthetic */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--bg));
+  }
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--stroke));
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(0 0% 18%);
+  }
+}
+
+@layer utilities {
+  /* The signature accent gradient used on logo ring, hover borders, progress bars */
+  .accent-gradient {
+    background-image: linear-gradient(90deg, #89aacc 0%, #4e85bf 100%);
+  }
+
+  /* Animated gradient border surface (pairs with the gradient-shift animation) */
+  .accent-gradient-animated {
+    background-image: linear-gradient(90deg, #89aacc 0%, #4e85bf 50%, #89aacc 100%);
+    background-size: 200% 200%;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
